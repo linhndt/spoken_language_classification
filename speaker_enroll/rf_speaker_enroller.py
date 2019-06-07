@@ -19,7 +19,7 @@ class RandomForestSpeakerEnroller():
 
     def train(self, data_dict):
 
-        pkl_file = '/home/ndthlinh/PycharmProjects/spoken_language_classification/rf_classifier.pkl'
+        pkl_file = 'rf_classifier.pkl'
 
         if os.path.isfile(pkl_file):
 
@@ -55,7 +55,7 @@ class RandomForestSpeakerEnroller():
         # predict_result = self.grid_search.predict(data_points).tolist()
 
         # Load pre-trained model:
-        pkl_file = '/home/ndthlinh/PycharmProjects/spoken_language_classification/rf_classifier.pkl'
+        pkl_file = 'rf_classifier.pkl'
 
         if os.path.isfile(pkl_file):
 
