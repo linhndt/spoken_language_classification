@@ -18,7 +18,7 @@ VAD Library (use in MFCC).
 
 ```sh
 cd <ANACONDA_BIN_FOLDER>
-./pip install webrtcvad
+./conda install webrtcvad
 ```
 
 ## 1. Feature extractor
